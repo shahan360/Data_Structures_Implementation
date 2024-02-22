@@ -28,7 +28,7 @@ class LinkedList:
             self.tail = new_node
         else:
             self.tail.next = new_node
-            self.tail = now_node
+            self.tail = new_node
         self.length += 1
 
 my_linked_list = LinkedList(10)
