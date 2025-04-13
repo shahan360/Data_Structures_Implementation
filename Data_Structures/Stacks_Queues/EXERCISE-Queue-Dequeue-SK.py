@@ -41,7 +41,7 @@ class Queue:
         self.length -= 1
         return temp
 
- 
+
 my_queue = Queue(1)
 my_queue.enqueue(2)
 
